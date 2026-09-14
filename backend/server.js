@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome to MattsITAcademy Backend 🚀",
+    message: "Welcome to MattsITAcademy SahilMatto 🚀",
   });
 });
 

@@ -3,7 +3,7 @@ name: Deploy MattsITAcademy
 on:
   push:
     branches:
-      - main
+      - uat
 
 jobs:
   deploy:

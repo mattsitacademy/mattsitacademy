@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState("Connecting to backend...");
 
   useEffect(() => {
-    fetch("http://localhost:5000/")
+    fetch("http://3.110.83.83:5000/")
       .then((response) => response.json())
       .then((data) => {
         console.log("Backend Response:", data);
